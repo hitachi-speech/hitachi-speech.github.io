@@ -1,0 +1,203 @@
+* {
+  font-family: Arial, Helvetica, sans-serif
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  width: auto;
+  min-width: 500px;
+  margin: auto;
+}
+
+body #contents {
+  width: auto;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: calc(100vh - 85px);
+}
+
+header {
+  padding:0px 0px 10px;
+  width: auto;
+  background-color: rgb(220, 220, 220);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  height: 50px;
+  margin-bottom: 10px;
+  line-height: 50px;
+}
+
+aside {
+  display: block;
+  border:1px solid #ccc;
+  margin:0px 10px 10px 10px;
+  padding:10px;
+  float:left;
+  width:200px;
+}
+
+article {
+  display: block;
+  width: auto;
+  margin: 0px 10px 0px 10px;
+  padding: 0px 10px 0px 10px;
+}
+
+footer {
+  clear: both;
+  background-color: rgb(220, 220, 220);
+  font-size: 10px;
+  text-align: right;
+  height: 24px;
+  padding: 5px;
+}
+
+article ul {
+  padding: 0px;
+  margin: 0 -5px 0 -5px;
+  width: auto;
+  list-style-type: disc;
+  list-style-position: outside;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+article ul li {
+  padding: 5px;
+  margin: 0px 0px 10px 0px;
+  background-color: #ffffff;
+}
+
+article ul li #title{
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(73, 73, 73);
+}
+article ul li #author{
+  font-size: 12px;
+  color: rgb(115, 115, 115);
+}
+article ul li #note{
+  font-size: 11px;
+  color: rgb(115, 115, 115);
+}
+article ul li #booktitle{
+  font-size: 12px;
+  color: rgb(115, 115, 115);
+  font-style: italic;
+}
+article ul li #link{
+  font-size: 14px;
+  color: rgb(115, 115, 115);
+}
+
+.search {
+  font-size: 12px;
+  width: 100%;
+}
+.search input[type="text"] {
+  width:100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.filterList {
+  float: left;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  color: #000000;
+  width: 100%;
+  text-align: left;
+  margin: 0 0 10px 0;
+  display: none;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 6px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  width: 100%;
+}
+.btn:hover {
+  background-color: #ddd;
+}
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Side bar */
+aside {
+  position: sticky;
+  top: 10px;
+}
+
+/* Year filter */
+#filterByYear {
+  width: 90%;
+  margin: 0 auto 30px;
+  margin-top: 1em;
+  margin-bottom: 35px;
+  line-height: 20px;
+  font-size: 10px;
+}
+#filterByYear .noUi-pips-horizontal{
+  height: 10px;
+}
+#filterByYear .noUi-handle  {
+  width: 16px;
+  right: -8px;
+  height: 16px;
+  border-radius: 8px;
+}
+#filterByYear .noUi-handle:before,
+#filterByYear .noUi-handle:after {
+  display: none;
+}
+#filterByYear .noUi-connect {
+  background: rgb(253, 0, 20);
+  height: 6px;
+}
+.noUi-horizontal {
+  height: 6px;
+}
+
+/* Category filter */
+input[type=checkbox] {
+  display: none;
+}
+input[type="checkbox"]:checked + label {
+  background-color: #666;
+  color: white;
+}
+.label {
+  display: block;
+  border: none;
+  outline: none;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  text-align:center;
+  line-height: 20px;
+  width: 100%;
+  font-size: 13px;
+  padding: 5px 0 5px 0;
+}
+.label:hover {
+  background-color: #ddd;
+}

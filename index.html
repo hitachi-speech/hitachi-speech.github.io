@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AI Publications from Hitachi</title>
+
+    <!-- Slider bar-->
+    <link rel="stylesheet" href="css/nouislider.min.css">
+    <script src="js/nouislider.min.js"></script>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/filter.js"></script>
+</head>
+<body>
+    <header>AI Publications from Hitachi, Ltd.</header>
+
+    <!-- Filtering buttons -->
+    <div id="contents">
+    <aside>
+        <div class="search">Filter by Keyword</div>
+        <div class="search">
+            <input type="text" id="filterByQuery" onkeyup="filter()" placeholder="Search for titles, authors..">
+        </div> <br>
+        <div class="search">Filter by Year</div>
+        <div id="filterByYear"></div> <br>
+        <div class="search">Filter by Category</div>
+        <div id="filterByCategory">
+            <input type="checkbox" name="categories" id="cv">
+            <label for="cv" class="label">Computer Vision</label>
+            <input type="checkbox" name="categories" id="speech">
+            <label for="speech" class="label">Acoustics, Speech, and<br>Signal Processing</label>
+            <input type="checkbox" name="categories" id="nlp">
+            <label for="nlp" class="label">Natural Language Processing</label>
+            <input type="checkbox" name="categories" id="robot">
+            <label for="robot" class="label">Robotics</label>
+            <input type="checkbox" name="categories" id="data">
+            <label for="data" class="label">Data Science</label>
+        </div>
+    </aside>
+
+    <article>
+    <ul>
+        <li class="filterList speech 2019">
+            <span id="title">Simultaneous Speech Recognition and Speaker Diarization for Monaural Dialogue Recordings with Target-Speaker Acoustic Models </span> <br>
+            <span id="author"><u>Naoyuki Kanda</u>, <u>Shota Horiguchi</u>, <u>Yusuke Fujita</u>, <u>Yawen Xue</u>, <u>Kenji Nagamatsu</u>, Shinji Watanabe</span> <br>
+            <span id="booktitle">ASRU 2019 (to appear)</span> <br>
+            <span id="link">[<a href="https://arxiv.org/abs/1909.08103" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/kanda2019simultaneous.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList speech 2019">
+            <span id="title">End-to-End Neural Speaker Diarization with Self-Attention</span> <br>
+            <span id="author"><u>Yusuke Fujita</u>, <u>Naoyuki Kanda</u>, <u>Shota Horiguchi</u>, <u>Yawen Xue</u>, <u>Kenji Nagamatsu</u>, Shinji Watanabe</span><br>
+            <span id="booktitle">ASRU 2019 (to appear)</span> <br>
+            <span id="link">[<a href="https://arxiv.org/abs/1909.06247" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/fujita2019endtoend2.bib">bibtex</a>][<a href="https://github.com/hitachi-speech/EEND">Code</a>]</span>
+        </li>
+        <li class="filterList cv 2019">
+            <span id="title">Automatic Annotation Method for Document Image Binarization in Real Systems</span> <br>
+            <span id="author"><u>Ryosuke Odate</u></span><br>
+            <span id="booktitle">ACPR 2019 (to appear)</span> <br>
+            <span id="link">[<a href="#" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/odate2019automatic.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList cv 2019">
+            <span id="title">MMAct: A Large-Scale Dataset for Cross Modal Human Action Recognition and Temporal Localization</span> <br>
+            <span id="author"><u>Quan Kong</u>, <u>Ziming Wu</u>, <u>Ziwei Deng</u>, <u>Martin Klinkigt</u>, <u>Bin Tong</u>, <u>Tomokazu Murakami</u></span><br>
+            <span id="booktitle">ICCV 2019 (to appear)</span> <br>
+            <span id="link">[<a href="#" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/kong2019mmact.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList speech 2019">
+            <span id="title">MIMII Dataset: Sound Dataset for Malfunctioning Industrial Machine Investigation and Inspection</span> <br>
+            <span id="author"><u>Harsh Purohit</u>, <u>Ryo Tanabe</u>, <u>Kenji Ichige</u>, <u>Takashi Endo</u>, <u>Yuki Nikaido</u>, <u>Kaori Suefusa</u>, <u>Yohei Kawaguchi</u></span><br>
+            <span id="booktitle">The Detection and Classification of Acoustic Scenes and Events 2019 Workshop (DCASE2019) (to appear)</span> <br>
+            <span id="link">[<a href="https://arxiv.org/abs/1909.09347" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="https://zenodo.org/record/3384388">Dataset</a>][<a href="bibtex/purohit2019mimii.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList nlp 2019">
+            <span id="title">Split First and Then Rephase: Hierarchical Generation for Sentence Simplification</span> <br>
+            <span id="author"><u>Mengru Wang</u>, <u>Hiroaki Ozaki</u>, <u>Yuta Koreeda</u>, <u>Kohsuke Yanai</u></span> <br>
+            <span id="booktitle">PACLING 2019 (to appear)</span> <br>
+            <span id="link">[<a href="#" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/wang2019split.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList speech 2019">
+            <span id="title">Auxiliary Interference Speaker Loss for Target-Speaker Speech Recognition</span> <br>
+            <span id="author"><u>Naoyuki Kanda</u>, <u>Shota Horiguchi</u>, <u>Ryoichi Takashima</u>, <u>Yusuke Fujita</u>, <u>Kenji Nagamatsu</u>, Shinji Watanabe</span> <br>
+            <span id="booktitle">INTERSPEECH 2019</span> <br>
+            <span id="link">[<a href="https://www.isca-speech.org/archive/Interspeech_2019/abstracts/1126.html" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/kanda2019auxiliary.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList speech 2019">
+            <span id="title">Guided Source Separation Meets a Strong ASR Backend: Hitachi/Paderborn University Joint Investigation for Dinner Party Scenario</span> <br>
+            <span id="author"><u>Naoyuki Kanda*</u>, Christoph Boeddeker*, Jens Heitkaemper*, <u>Yusuke Fujita</u>, <u>Shota Horiguchi</u>, <u>Kenji Nagamatsu</u>, Reinhold Haeb-Umbach</span> <br>
+            <span id="note">*Equal contribution</span> <br>
+            <span id="booktitle">INTERSPEECH 2019</span> <br>
+            <span id="link">[<a href="https://www.isca-speech.org/archive/Interspeech_2019/abstracts/1167.html" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/kanda2019guided.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList speech 2019">
+            <span id="title">Multimodal Response Obligation Detection with Unsupervised Online Domain Adaptation</span> <br>
+            <span id="author"><u>Shota Horiguchi</u>, <u>Naoyuki Kanda</u>, <u>Kenji Nagamatsu</u></span> <br>
+            <span id="booktitle">INTERSPEECH 2019</span> <br>
+            <span id="link">[<a href="https://www.isca-speech.org/archive/Interspeech_2019/abstracts/1313.html" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/horiguchi2019multimodal.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList speech 2019">
+            <span id="title">End-to-End Neural Speaker Diarization with Permutation-Free Objectives</span> <br>
+            <span id="author"><u>Yusuke Fujita</u>, <u>Naoyuki Kanda</u>, <u>Shota Horiguchi</u>, <u>Kenji Nagamatsu</u>, Shinji Watanabe </span><br>
+            <span id="booktitle">INTERSPEECH 2019</span> <br>
+            <span id="link">[<a href="https://www.isca-speech.org/archive/Interspeech_2019/abstracts/2899.html" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/fujita2019endtoend.bib">bibtex</a>][<a href="https://github.com/hitachi-speech/EEND">Code</a>]</span>
+        </li>
+        <li class="filterList robot 2019">
+            <span id="title">Simultaneously Determining Target Object and Transport Velocity for Manipulator and Moving Vehicle in Piece-Picking Operation</span> <br>
+            <span id="author"><u>Nobutaka Kimura</u>, <u>Ryo Sakai</u>, <u>Shinichi Katsumata</u>, <u>Nobuhiro Chihara</u></span> <br>
+            <span id="booktitle">CASE 2019</span> <br>
+            <span id="link">[<a href="https://ieeexplore.ieee.org/document/8843236" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/kimura2019simultaneously.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList robot 2019">
+            <span id="title">New Automated Guided Vehicle System Using Real-Time Holonic Scheduling for Warehouse Picking</span> <br>
+            <span id="author"><u>Hiroshi Yoshitake</u>, <u>Ryota Kamoshida</u>, <u>Yoshikazu Nagashima</u></span> <br>
+            <span id="booktitle">RA-L 2019 (Presented at ICRA 2019)</span> <br>
+            <span id="link">[<a href="https://ieeexplore.ieee.org/abstract/document/8618437" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/yoshitake2019new.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList cv 2019">
+            <span id="title"> Hierarchical Disentanglement of Discriminative Latent Features for Zero-Shot Learning</span> <br>
+            <span id="author"><u>Bin Tong</u>, Chao Wang, <u>Martin Klinkigt</u>, <u>Yoshiyuki Kobayashi</u>, <u>Yuuichi Nonaka</u></span> <br>
+            <span id="booktitle">CVPR 2019</span> <br>
+            <span id="link">[<a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Tong_Hierarchical_Disentanglement_of_Discriminative_Latent_Features_for_Zero-Shot_Learning_CVPR_2019_paper.html" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/tong2019hierarchical.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList speech 2019">
+            <span id="title">Acoustic Modeling for Distant Multi-Talker Speech Recognition with Single- and Multi-Channel Branches</span> <br>
+            <span id="author"><u>Naoyuki Kanda</u>, <u>Yusuke Fujita</u>, <u>Shota Horiguchi</u>, <u>Rintaro Ikeshita</u>, <u>Kenji Nagamatsu</u>, Shinji Watanabe</span> <br>
+            <span id="booktitle">ICASSP 2019</span> <br>
+            <span id="link">[<a href="https://ieeexplore.ieee.org/document/8682273" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/kanda2019acoustic.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList speech 2019">
+            <span id="title">Anomaly Detection Based on an Ensemble of Dereverberation and Anomalous Sound Extraction</span> <br>
+            <span id="author"><u>Yohei Kawaguchi</u>, <u>Ryo Tanabe</u>, <u>Takashi Endo</u>, <u>Kenji Ichige</u>, <u>Koichi Hamada</u></span> <br>
+            <span id="booktitle">ICASSP 2019</span> <br>
+            <span id="link">[<a href="https://ieeexplore.ieee.org/document/8683702" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/kawaguchi2019anomaly.bib">bibtex</a>][<a href="http://www.hitachi.com/rd/special/aiblog/001/index.html">Blog</a>]</span>
+        </li>
+        <li class="filterList cv 2019">
+            <span id="title">Active Generative Adversarial Network for Image Classification</span> <br>
+            <span id="author"><u>Quan Kong</u>, <u>Bin Tong</u>, <u>Martin Klinkigt</u>, <u>Yuki Watanabe</u>, <u>Naoto Akira</u>, <u>Tomokazu Murakami</u></span> <br>
+            <span id="booktitle">AAAI 2019</span> <br>
+            <span id="link">[<a href="https://aaai.org/ojs/index.php/AAAI/article/view/4305" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/kong2019active.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList cv 2019">
+            <span id="title">Omnidirectional Pedestrian Detection by Rotation Invariant Training</span> <br>
+            <span id="author"><u>Masato Tamura</u>, <u>Shota Horiguchi</u>, <u>Tomokazu Murakami</u></span> <br>
+            <span id="booktitle">WACV 2019</span> <br>
+            <span id="link">[<a href="https://ieeexplore.ieee.org/document/8658933" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/tamura2019omnidirectional.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList cv 2019">
+            <span id="title">Deployment Conscious Automatic Surface Crack Detection</span> <br>
+            <span id="author"><u>Yuki Inoue</u>, <u>Hiroto Nagayoshi</u></span> <br>
+            <span id="booktitle">WACV 2019</span> <br>
+            <span id="link">[<a href="https://ieeexplore.ieee.org/abstract/document/8658861" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/inoue2019deployment.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList cv 2019">
+            <span id="title">Multimodal Deep Neural Networks Based Ensemble Learning for X-Ray Object Recognition</span> <br>
+            <span id="author"><u>Quan Kong</u>, <u>Naoto Akira</u>, <u>Bin Tong</u>, <u>Yuki Watanabe</u>, <u>Daisuke Matsubara</u>, <u>Tomokazu Murakami</u></span> <br>
+            <span id="booktitle">First International Workshop on Advanced Machine Vision for Real-Life and Industrially Relevant Applications (AMV) 2019</span> <br>
+            <span id="link">[<a href="https://link.springer.com/chapter/10.1007/978-3-030-21074-8_41" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/kong2019multimodal.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList nlp 2018">
+            <span id="title">Autonomous Sub-Domain Modeling for Dialogue Policy with Hierarchical Deep Reinforcement Learning</span> <br>
+            <span id="author"><u>Giovanni Yoko Kristianto</u>, Huiwen Zhang, <u>Bin Tong</u>, <u>Makoto Iwayama</u>, <u>Yoshiyuki Kobayashi</u></span> <br>
+            <span id="booktitle">The 2nd Workshop on Search-Oriented Conversational AI (SCAI) 2018</span> <br>
+            <span id="link">[<a href="https://www.aclweb.org/anthology/W18-5702" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/kristianto2018autonomous.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList speech 2018">
+            <span id="title">Multichannel Acoustic Scene Classification by Blind Dereverberation, Blind Source Separation, Data Augmentation, and Model Ensembling</span> <br>
+            <span id="author"><u>Ryo Tanabe</u>, <u>Takashi Endo</u>, <u>Yuki Nikaido</u>, <u>Takeshi Ichige</u>, <u>Phong Nguyen</u>, <u>Yohei Kawaguchi</u>, <u>Koichi Hamada</u></span> <br>
+            <span id="booktitle">The Detection and Classification of Acoustic Scenes and Events 2018 Workshop (DCASE2018), <strong>1st prize (tied) among 13 teams in Task 5</strong></span> <br>
+            <span id="link">[<a href="http://dcase.community/documents/challenge2018/technical_reports/DCASE2018_Tanabe_55.pdf">Technical report</a>][<a href="bibtex/tanabe2018multichannel.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList cv speech 2018">
+            <span id="title">Face-Voice Matching Using Cross-Modal Embeddings</span> <br>
+            <span id="author"><u>Shota Horiguchi</u>, <u>Naoyuki Kanda</u>, <u>Kenji Nagamatsu</u></span> <br>
+            <span id="booktitle">ACMMM 2018</span> <br>
+            <span id="link">[<a href="https://dl.acm.org/citation.cfm?id=3240601" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/horiguchi2018facevoice.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList speech 2018">
+            <span id="title">Fast Multichannel Nonnegative Matrix Factorization with Constraints on Active Source Candidates</span> <br>
+            <span id="author"><u>Rintaro Ikeshita</u>, <u>Yohei Kawaguchi</u>, <u>Kenji Nagamatsu</u></span> <br>
+            <span id="booktitle">IWAENC 2018</span> <br>
+            <span id="link">[<a href="https://ieeexplore.ieee.org/document/8521340" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/ikeshita2018fast.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList speech 2018">
+            <span id="title">Non-Negative Novelty Extraction: A New Non-Negativity Constraint for NMF</span> <br>
+            <span id="author"><u>Yohei Kawaguchi</u>, <u>Takashi Endo</u>, <u>Kenji Ichige</u>, <u>Koichi Hamada</u></span> <br>
+            <span id="booktitle">IWAENC 2018</span> <br>
+            <span id="link">[<a href="https://ieeexplore.ieee.org/document/8521320" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/kawaguchi2018nonnegative.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList speech 2018">
+            <span id="title">Anomaly Detection Based on Feature Reconstruction from Subsampled Audio Signals</span> <br>
+            <span id="author"><u>Yohei Kawaguchi</u></span> <br>
+            <span id="booktitle">EUSIPCO 2018</span> <br>
+            <span id="link">[<a href="https://ieeexplore.ieee.org/document/8553480" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/kawaguchi2018anomaly.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList speech 2018">
+            <span id="title">Independent Positive Semidefinite Tensor Analysis in Blind Source Separation</span> <br>
+            <span id="author"><u>Rintaro Ikeshita</u></span> <br>
+            <span id="booktitle">EUSIPCO 2018</span> <br>
+            <span id="link">[<a href="https://ieeexplore.ieee.org/document/8553546" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/ikeshita2018independent2.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList cv 2018">
+            <span id="title">Semi-Supervised Clustering Framework Based on Active Learning for Real Data</span> <br>
+            <span id="author"><u>Ryosuke Odate</u>, <u>Hiroshi Honjo</u>, <u>Yasufumi Suzuki</u>, <u>Masahiro Motobayashi</u></span> <br>
+            <span id="booktitle">Joint IAPR International Workshops on Statistical Techniques in Pattern Recognition (SPR) and Structural and Syntactic Pattern Recognition (SSPR) 2018</span> <br>
+            <span id="link">[<a href="https://link.springer.com/chapter/10.1007/978-3-319-97785-0_18" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/odate2018semisupervised.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList speech 2018">
+            <span id="title">The Hitachi/JHU CHiME-5 System: Advances in Speech Recognition for Everyday Home Environments Using Multiple Microphone Arrays</span> <br>
+            <span id="author"><u>Naoyuki Kanda</u>, <u>Rintaro Ikeshita</u>, <u>Shota Horiguchi</u>, <u>Yusuke Fujita</u>, <u>Kenji Nagamatsu</u>, Xiaofei Wang, Vimal Manohar, Nelson Enrique Yalta Soplin, Matthew Maciejewski, Szu-Jui Chen, Aswin Shanmugam Subramanian, Ruizhi Li, Zhiqi Wang, Jason Naradowsky, L Paola Garcia-Perera, Gregory Sell</span> <br>
+            <span id="booktitle">The 5th International Workshop on Speech Processing in Everyday Environments (CHiME) 2018, <strong>2nd prize</strong></span> <br>
+            <span id="link">[<a href="https://www.isca-speech.org/archive/CHiME_2018/abstracts/CHiME_2018_paper_kanda.html" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/kanda2018hitachijhu.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList speech 2018">
+            <span id="title">Lattice-Free State-Level Minimum Bayes Risk Training of Acoustic Models</span> <br>
+            <span id="author"><u>Naoyuki Kanda</u>, <u>Yusuke Fujita</u>, <u>Kenji Nagamatsu</u></span> <br>
+            <span id="booktitle">INTERSPEECH 2018</span> <br>
+            <span id="link">[<a href="https://www.isca-speech.org/archive/Interspeech_2018/abstracts/0079.html" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/kanda2018latticefree.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList data 2018">
+            <span id="title">Attributes' Importance for Zero-Shot Pose-Classification Based on Wearable Sensors</span> <br>
+            <span id="author"><u>Hiroki Ohashi</u>, Mohammad Al-Naser, Sheraz Ahmed, <u>Katsuyuki Nakamura</u>, <u>Takuto Sato</u>, Andreas Dengel</span> <br>
+            <span id="booktitle">Sensors 2018, 18(8), 2485</span> <br>
+            <span id="link">[<a href="https://www.mdpi.com/1424-8220/18/8/2485" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/ohashi2018attributes.bib">bibtex</a>][<a href="http://www.hitachi.com/rd/special/aiblog/003/index.html">Blog</a>]</span>
+        </li>
+        <li class="filterList speech 2018">
+            <span id="title">Maximizing SLU Performance with Minimal Training Data Using Hybrid RNN Plus Rule-Based Approach</span> <br>
+            <span id="author"><u>Takeshi Homma</u>, <u>Adriano S. Arantes</u>,  <u>Maria Teresa Gonzalez Diaz</u>, <u>Masahito Togami</u></span> <br>
+            <span id="booktitle">SIGDIAL 2018</span> <br>
+            <span id="link">[<a href="https://www.aclweb.org/anthology/W18-5043/" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/homma2018maximizing.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList speech 2018">
+            <span id="title">Independent Low-Rank Matrix Analysis Based on Multivariate Complex Exponential Power Distribution</span> <br>
+            <span id="author"><u>Rintaro Ikeshita</u>, <u>Yohei Kawaguchi</u></span> <br>
+            <span id="booktitle">ICASSP 2018</span> <br>
+            <span id="link">[<a href="https://ieeexplore.ieee.org/abstract/document/8461387" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/ikeshita2018independent.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList speech 2018">
+            <span id="title">Sequence Distillation for Purely Sequence Trained Acoustic Models</span> <br>
+            <span id="author"><u>Naoyuki Kanda</u>, <u>Yusuke Fujita</u>, <u>Kenji Nagamatsu</u></span> <br>
+            <span id="booktitle">ICASSP 2018</span> <br>
+            <span id="link">[<a href="https://ieeexplore.ieee.org/document/8462619" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/kanda2018sequence.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList cv 2018">
+            <span id="title">Adversarial Zero-Shot Learning With Semantic Augmentation</span> <br>
+            <span id="author"><u>Bin Tong</u>, <u>Martin Klinkigt</u>, <u>Junwen Chen</u>, <u>Xiankun Cui</u>, <u>Quan Kong</u>, <u>Tomokazu Murakami</u>, <u>Yoshiyuki Kobayashi</u></span> <br>
+            <span id="booktitle">AAAI 2018</span> <br>
+            <span id="link">[<a href="https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16805" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/tong2018adversarial.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList data cv 2018">
+            <span id="title">Hierarchical Model for Zero-Shot Activity Recognition Using Wearable Sensors</span> <br>
+            <span id="author">Mohammad Al-Naser*, <u>Hiroki Ohashi</u>*, Sheraz Ahmed, <u>Katsuyuki Nakamura</u>, <u>Takayuki Akiyama</u>, <u>Takuto Sato</u>, <u>Phong Xuan Nguyen</u>, Andreas Dengel</span> <br>
+            <span id="note">*Equal contribution</span> <br>
+            <span id="booktitle">ICAART 2018</span> <br>
+            <span id="link">[<a href="https://pdfs.semanticscholar.org/d5c1/d250bc505efadcc144eac7af220382fd3875.pdf?_ga=2.215861330.470811108.1570156292-2027212534.1570156292" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/alnaser2018hierarchical.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList speech 2017">
+            <span id="title">Time-Domain Subsampling and Reconstruction for Microphone Array</span> <br>
+            <span id="author"><u>Yohei Kawaguchi</u>, <u>Ryoichi Takashima</u>, <u>Takashi Endo</u>, <u>Masahito Togami</u></span> <br>
+            <span id="booktitle">APSIPA ASC 2017</span> <br>
+            <span id="link">[<a href="https://ieeexplore.ieee.org/document/8282060" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/kawaguchi2017timedomain.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList speech 2017">
+            <span id="title">Sub-Nyquist Non-Uniform Sampling for Low-Cost Sound Monitoring</span> <br>
+            <span id="author"><u>Yohei Kawaguchi</u>, <u>Ryoichi Takashima</u>, <u>Takashi Endo</u>, <u>Masahito Togami</u></span> <br>
+            <span id="booktitle">APSIPA ASC 2017</span> <br>
+            <span id="link">[<a href="https://ieeexplore.ieee.org/document/8282074" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/kawaguchi2017subnyquist.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList speech 2017">
+            <span id="title">An Application of Noise-Robust Speech Translation Using Asynchronous Smart Devices</span> <br>
+            <span id="author"><u>Ryoichi Takashima</u>, <u>Yohei Kawaguchi</u>, <u>Qinghua Sun</u>, <u>Takashi Sumiyoshi</u>, <u>Masahito Togami</u></span> <br>
+            <span id="booktitle">APSIPA ASC 2017</span> <br>
+            <span id="link">[<a href="https://ieeexplore.ieee.org/document/8282278" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/takashima2017application.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList speech 2017">
+            <span id="title">Investigation of Lattice-Free Maximum Mutual Information-Based Acoustic Models with Sequence-Level Kullback-Leibler Divergence</span> <br>
+            <span id="author"><u>Naoyuki Kanda</u>, <u>Yusuke Fujita</u>, <u>Kenji Nagamatsu</u></span> <br>
+            <span id="booktitle">ASRU 2017</span> <br>
+            <span id="link">[<a href="https://ieeexplore.ieee.org/document/8268918" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/kanda2017investigation.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList speech 2017">
+            <span id="title">How Can We Detect Anomalies from Subsampled Audio Signals?</span> <br>
+            <span id="author"><u>Yohei Kawaguchi</u>, <u>Takashi Endo</u></span> <br>
+            <span id="booktitle">MLSP 2017</span> <br>
+            <span id="link">[<a href="https://ieeexplore.ieee.org/abstract/document/8168164" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/kawaguchi2017how.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList speech 2017">
+            <span id="title">Local Gaussian Model with Source-Set Constraints in Audio Source Separation</span> <br>
+            <span id="author"><u>Rintaro Ikeshita</u>, <u>Yohei Kawaguchi</u>, <u>Masahito Togami</u>, <u>Yusuke Fujita</u>, <u>Kenji Nagamatsu</u></span> <br>
+            <span id="booktitle">MLSP 2017</span> <br>
+            <span id="link">[<a href="https://ieeexplore.ieee.org/document/8168170" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/ikeshita2017local.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList nlp 2017">
+            <span id="title">StruAP: A Tool for Bundling Linguistic Trees Through Structure-Based Abstract Pattern</span> <br>
+            <span id="author"><u>Kohsuke Yanai</u>, <u>Misa Sato</u>, <u>Toshihiko Yanase</u>, <u>Kenzo Kurotsuchi</u>, <u>Yuta Koreeda</u>, <u>Yoshiki Niwa</u></span> <br>
+            <span id="booktitle">EMNLP 2017 (demo)</span> <br>
+            <span id="link">[<a href="https://www.aclweb.org/anthology/D17-2006" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/yanai2017struap.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList speech 2017">
+            <span id="title">ADMM-Based Audio Reconstruction for Low-Cost-Sound-Monitoring</span> <br>
+            <span id="author"><u>Sandra Ramaswami</u>, <u>Yohei Kawaguchi</u>, <u>Ryoichi Takashima</u>, <u>Takashi Endo</u>, <u>Masahito Togami</u></span></span> <br>
+            <span id="booktitle">EUSIPCO 2017</span> <br>
+            <span id="link">[<a href="https://ieeexplore.ieee.org/document/8081410/" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/ramaswami2017admmbased.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList speech 2017">
+            <span id="title">Separation of Vibration-Derived Sound Signals Based on Fusion Processing of Vibration Sensors and Microphones</span> <br>
+            <span id="author"><u>Ryoichi Takashima</u>, <u>Yohei Kawaguchi</u>, <u>Masahito Togami</u></span> <br>
+            <span id="booktitle">EUSIPCO 2017</span> <br>
+            <span id="link">[<a href="https://ieeexplore.ieee.org/document/8081646/" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/takashima2017separation.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList speech 2017">
+            <span id="title">Independent Vector Analysis with Frequency Range Division and Prior Switching</span> <br>
+            <span id="author"><u>Rintaro Ikeshita</u>, <u>Yohei Kawaguchi</u>, <u>Masahito Togami</u>, <u>Yusuke Fujita</u>, <u>Kenji Nagamatsu</u></span> <br>
+            <span id="booktitle">EUSIPCO 2017</span> <br>
+            <span id="link">[<a href="https://ieeexplore.ieee.org/document/8081626/" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/ikeshita2017independent.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList data 2017">
+            <span id="title">Learning to Generate Rock Descriptions from Multivariate Well Logs with Hierarchical Attention</span> <br>
+            <span id="author"><u>Bin Tong</u>, <u>Martin Klinkigt</u>, <u>Makoto Iwayama</u>, <u>Toshihiko Yanase</u>, <u>Yoshiyuki Kobayashi</u>, <u>Anshuman Sahu</u>, <u>Ravigopal Vennelakanti</u></span> <br>
+            <span id="booktitle">KDD 2017</span> <br>
+            <span id="link">[<a href="https://dl.acm.org/citation.cfm?id=3098132" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/tong2017learning.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList data 2017">
+            <span id="title">Augmenting Wearable Sensor Data with Physical Constraint for DNN-Based Human-Action Recognition</span> <br>
+            <span id="author"><u>Hiroki Ohashi</u>, Mohammad Al-Nasser, Sheraz Ahmed, <u>Takayuki Akiyama</u>, <u>Takuto Sato</u>, <u>Phong Nguyen</u>, <u>Katsuyuki Nakamura</u>, Andreas Dengel</span> <br>
+            <span id="booktitle">ICML 2017 Times Series Workshop</span> <br>
+            <span id="link">[<a href="http://roseyu.com/time-series-workshop/submissions/TSW2017_paper_9.pdf" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/ohashi2017augmenting.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList nlp 2017">
+            <span id="title">bunji at SemEval-2017 Task 3: Combination of Neural Similarity Featuresand Comment Plausibility Features</span> <br>
+            <span id="author"><u>Yuta Koreeda</u>, Takuya Hashito, <u>Yoshiki Niwa</u>, <u>Misa Sato</u>, <u>Toshihiko Yanase</u>, <u>Kenzo Kurotsuchi</u>, <u>Kohsuke Yanai</u></span> <br>
+            <span id="booktitle">11th International Workshop on Semantic Evaluations (SemEval-2017)</span> <br>
+            <span id="link">[<a href="https://www.aclweb.org/anthology/S17-2058" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/koreeda2017bunji.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList cv 2017">
+            <span id="title">Jointly Learning Energy Expenditures and Activities Using Egocentric Multimodal Signals</span> <br>
+            <span id="author"><u>Katsuyuki Nakamura</u>, Serena Yeung, Alexandre Alahi, Li Fei-Fei</span> <br>
+            <span id="booktitle">CVPR 2017</span> <br>
+            <span id="link">[<a href="https://ieeexplore.ieee.org/document/8100204" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/nakamura2017jointly.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList speech 2016">
+            <span id="title">Robust Utterance Classification Using Multiple Classifiers in the Presence of Speech Recognition Errors</span> <br>
+            <span id="author"><u>Takeshi Homma</u>, Kazuaki Shima, Takuya Matsumoto</span> <br>
+            <span id="booktitle">SLT 2016</span> <br>
+            <span id="link">[<a href="https://ieeexplore.ieee.org/document/7846291" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/homma2016robust.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList speech 2016">
+            <span id="title">Adaptive Boolean Compressive Sensing by Sequential Pool-Design</span> <br>
+            <span id="author"><u>Yohei Kawaguchi</u>, <u>Masahito Togami</u></span> <br>
+            <span id="booktitle">APSIPA ASC 2016</span> <br>
+            <span id="link">[<a href="https://ieeexplore.ieee.org/document/7820730" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/kawaguchi2016adaptive2.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList speech 2016">
+            <span id="title">Data Augmentation Using Multi-Input Multi-Output Source Separation for Deep Neural Network Based Acoustic Modeling</span> <br>
+            <span id="author"><u>Yusuke Fujita</u>, <u>Ryoichi Takashima</u>, <u>Takeshi Homma</u>, <u>Masahito Togami</u></span> <br>
+            <span id="booktitle">INTERSPEECH 2016</span> <br>
+            <span id="link">[<a href="https://www.isca-speech.org/archive/Interspeech_2016/abstracts/0733.html" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/fujita2016data.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList data 2016">
+            <span id="title">Trip-Extraction Method Based on Characteristics of Sensors and Human-Travel Behavior for Sensor-Based Travel Survey</span> <br>
+            <span id="author"><u>Hiroki Ohashi</u>, <u>Phong Xuan Nguyen</u>, <u>Takayuki Akiyama</u>, <u>Masaaki Yamamoto</u>, <u>Akiko Sato</u></span> <br>
+            <span id="booktitle">Journal of Information Processing 24 (1), 39-48, 2016</span> <br>
+            <span id="link">[<a href="https://www.jstage.jst.go.jp/article/ipsjjip/24/1/24_39/_pdf/-char/en" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/ohashi2016tripextraction.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList data 2016">
+            <span id="title">Deep Match Between Geology Reports and Well Logs Using Spatial Information</span> <br>
+            <span id="author"><u>Bin Tong</u>, <u>Martin Klinkigt</u>, <u>Makoto Iwayama</u>, <u>Toshihiko Yanase</u>, <u>Yoshiyuki Kobayashi</u>, <u>Anshuman Sahu</u>, <u>Ravigopal Vennelakanti</u></span> <br>
+            <span id="booktitle">CIKM 2016</span> <br>
+            <span id="link">[<a href="https://dl.acm.org/citation.cfm?id=2983352" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/tong2016deep.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList nlp 2016">
+            <span id="title">Neural Attention Model for Classification of Sentences That Support Promoting/Suppressing Relationship</span> <br>
+            <span id="author"><u>Yuta Koreeda</u>, <u>Toshihiko Yanase</u>, <u>Kohsuke Yanai</u>, <u>Misa Sato</u>, <u>Yoshiki Niwa</u></span> <br>
+            <span id="booktitle">Third Workshop on Argument Mining (ArgMining2016)</span> <br>
+            <span id="link">[<a href="https://www.aclweb.org/anthology/W16-2809/" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/koreeda2016neural.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList nlp 2016">
+            <span id="title">bunji at SemEval-2016 Task 5: Neural and Syntactic Models of Entity-Attribute Relationship for Aspect-Based Sentiment Analysis</span> <br>
+            <span id="author"><u>Toshihiko Yanase</u>, <u>Kohsuke Yanai</u>, <u>Misa Sato</u>, <u>Toshinori Miyoshi</u>, <u>Yoshiki Niwa</u></span> <br>
+            <span id="booktitle">10th International Workshop on Semantic Evaluation (SemEval-2016)</span> <br>
+            <span id="link">[<a href="https://www.aclweb.org/anthology/S16-1046/" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/yanase2016bunji.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList speech 2016">
+            <span id="title">Adaptive Boolean Compressive Sensing by Using Multi-Armed Bandit</span> <br>
+            <span id="author"><u>Yohei Kawaguchi</u>, <u>Masato Togami</u></span> <br>
+            <span id="booktitle">ICASSP 2016</span> <br>
+            <span id="link">[<a href="https://ieeexplore.ieee.org/document/7472280" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/kawaguchi2016adaptive.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList speech 2015">
+            <span id="title">Unified ASR System Using LGM-Based Source Separation, Noise-Robust Feature Extraction, and Word Hypothesis Selection</span> <br>
+            <span id="author"><u>Yusuke Fujita</u>, <u>Ryoichi Takashima</u>, <u>Takeshi Homma</u>, <u>Rintaro Ikeshita</u>, <u>Yohei Kawaguchi</u>, <u>Takashi Sumiyoshi</u>, <u>Takashi Endo</u>, <u>Masahito Togami</u></span> <br>
+            <span id="booktitle">ASRU 2015</span> <br>
+            <span id="link">[<a href="https://ieeexplore.ieee.org/document/7395819" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/fujita2015unified.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList data 2015">
+            <span id="title">Production Estimation for Shale Wells with Sentiment-Based Features from Geology Reports</span> <br>
+            <span id="author"><u>Bin Tong</u>, <u>Hiroaki Ozaki</u>, <u>Makoto Iwayama</u>, <u>Toshihiko Yanase</u>, <u>Yoshiyuki Kobayashi</u>, <u>Anshuman Sahu</u>, <u>Ravigopal Vennelakanti</u></span> <br>
+            <span id="booktitle">ICDM Workshop 2015</span> <br>
+            <span id="link">[<a href="https://ieeexplore.ieee.org/document/7395819/authors#authors" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/tong2015production.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList speech 2015">
+            <span id="title">Improvement of Robustness to Change of Positive Elements in Boolean Compressive Sensing</span> <br>
+            <span id="author"><u>Yohei Kawaguchi</u>, <u>Tatsuhiko Osa</u>, <u>Hisashi Nagano</u>, <u>Masahito Togami</u></span> <br>
+            <span id="booktitle">EUSIPCO 2015</span> <br>
+            <span id="link">[<a href="https://ieeexplore.ieee.org/document/7362573" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/kawaguchi2015improvement.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList nlp 2015">
+            <span id="title">End-to-End Argument Generation System in Debating</span> <br>
+            <span id="author"><u>Misa Sato</u>, <u>Kohsuke Yanai</u>, <u>Toshihiko Yanase</u>, <u>Toshinori Miyoshi</u>, <u>Makoto Iwayama</u>, <u>Qinghua Sun</u>, <u>Yoshiki Niwa</u></span> <br>
+            <span id="booktitle">ACL 2015 (demo)</span> <br>
+            <span id="link">[<a href="https://www.aclweb.org/anthology/P15-4019" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/sato2015endtoend.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList nlp 2015">
+            <span id="title">Learning Sentence Ordering for Opinion Generation of Debate</span> <br>
+            <span id="author"><u>Toshihiko Yanase</u>, <u>Toshinori Miyoshi</u>, <u>Kohsuke Yanai</u>, <u>Misa Sato</u>, <u>Makoto Iwayama</u>, <u>Yoshiki Niwa</u>, Paul Reisert, Kentaro Inui</span> <br>
+            <span id="booktitle">2nd Workshop on Argumentation Mining (ArgMining2015)</span> <br>
+            <span id="link">[<a href="https://www.aclweb.org/anthology/W15-0512/" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/yanase2015learning.bib">bibtex</a>]</span>
+        </li>
+        <li class="filterList data 2015">
+            <span id="title">Information Retrieval Boosted by Category for Troubleshooting Search System</span> <br>
+            <span id="author"><u>Bin Tong</u>, <u>Toshihiko Yanase</u>, <u>Hiroaki Ozaki</u>, <u>Makoto Iwayama</u></span> <br>
+            <span id="booktitle">SIGIR Workshop on Graph Search and Beyond (GSB) 2015</span> <br>
+            <span id="link">[<a href="http://ceur-ws.org/Vol-1393/paper-11.pdf" target="_blank" rel="noopener noreferrer">Paper</a>][<a href="bibtex/tong2015information.bib">bibtex</a>]</span>
+        </li>
+    </ul>
+    </article>
+    </div>
+
+    <footer>Hitachi, Ltd. 2019. All rights reserved.</footer>
+</body>
+</html>
