@@ -14,9 +14,20 @@ html {
   overflow-y: scroll;
 }
 
+@media screen and (max-width: 480px) {
+  body {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  body {
+    width: auto;
+    min-width: 500px;
+  }
+}
+
 body {
-  width: auto;
-  min-width: 500px;
   margin: auto;
 }
 
@@ -28,16 +39,32 @@ body #contents {
   min-height: calc(100vh - 85px);
 }
 
-header {
-  padding:0px 0px 10px;
-  width: auto;
-  background-color: rgb(220, 220, 220);
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-  height: 50px;
-  margin-bottom: 10px;
-  line-height: 50px;
+@media screen and (min-width: 481px) {
+  header {
+    padding:0px 0px 10px;
+    width: auto;
+    background-color: rgb(220, 220, 220);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    height: 50px;
+    margin-bottom: 10px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    padding:0px 0px 3vw;
+    width: auto;
+    background-color: rgb(220, 220, 220);
+    font-size: 4vmin;
+    font-weight: bold;
+    text-align: center;
+    height: 10vw;
+    margin-bottom: 3vw;
+    line-height: 10vw;
+  }
 }
 
 aside {
@@ -49,8 +76,19 @@ aside {
   width:200px;
 }
 
+@media screen and (max-width: 480px) {
+  aside {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  aside {
+    display: block;
+  }
+}
+
 article {
-  display: block;
   width: auto;
   margin: 0px 10px 0px 10px;
   padding: 0px 10px 0px 10px;
