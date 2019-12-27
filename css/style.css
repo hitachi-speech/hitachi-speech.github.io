@@ -1,5 +1,6 @@
 * {
-  font-family: Arial, Helvetica, sans-serif
+  font-family: "Open Sans", sans-serif;
+  transform: rotate(0.001deg);
 }
 
 *, *:before, *:after {
@@ -14,46 +15,11 @@ html {
   overflow-y: scroll;
 }
 
+/* Smartphone */
 @media screen and (max-width: 480px) {
   body {
     width: 100%;
   }
-}
-
-@media screen and (min-width: 481px) {
-  body {
-    width: auto;
-    min-width: 500px;
-  }
-}
-
-body {
-  margin: auto;
-}
-
-body #contents {
-  width: auto;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  min-height: calc(100vh - 85px);
-}
-
-@media screen and (min-width: 481px) {
-  header {
-    padding:0px 0px 10px;
-    width: auto;
-    background-color: rgb(220, 220, 220);
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    height: 50px;
-    margin-bottom: 10px;
-    line-height: 50px;
-  }
-}
-
-@media screen and (max-width: 480px) {
   header {
     padding:0px 0px 3vw;
     width: auto;
@@ -65,6 +31,80 @@ body #contents {
     margin-bottom: 3vw;
     line-height: 10vw;
   }
+  aside {
+    display: none;
+  }
+  article ul li #title{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(73, 73, 73);
+  }
+  article ul li #author, #note, #booktitle, #link{
+    color: rgb(115, 115, 115);
+  }
+  article ul li #author, #note, #booktitle {
+    font-size: 12px;
+  }
+  article ul li #note{
+    font-size: 11px;
+  }
+  article ul li #booktitle{
+    font-style: italic;
+  }
+  article ul li #link{
+    font-size: 14px;
+  }
+}
+
+/* PC */
+@media screen and (min-width: 481px) {
+  body {
+    width: auto;
+    min-width: 500px;
+  }
+  header {
+    padding:0px 0px 10px;
+    width: auto;
+    background-color: rgb(220, 220, 220);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    height: 50px;
+    margin-bottom: 10px;
+    line-height: 50px;
+  }
+  aside {
+    display: block;
+  }
+  article ul li #title{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(73, 73, 73);
+  }
+  article ul li #author, #note, #booktitle, #link{
+    color: rgb(115, 115, 115);
+  }
+  article ul li #author, #booktitle, #link {
+    font-size: 14px;
+  }
+  article ul li #note{
+    font-size: 12px;
+  }
+  article ul li #booktitle{
+    font-style: italic;
+  }
+}
+
+body {
+  margin: auto;
+}
+
+body #contents {
+  width: auto;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: calc(100vh - 85px);
 }
 
 aside {
@@ -74,18 +114,6 @@ aside {
   padding:10px;
   float:left;
   width:200px;
-}
-
-@media screen and (max-width: 480px) {
-  aside {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 481px) {
-  aside {
-    display: block;
-  }
 }
 
 article {
@@ -117,29 +145,6 @@ article ul li {
   padding: 5px;
   margin: 0px 0px 10px 0px;
   background-color: #ffffff;
-}
-
-article ul li #title{
-  font-size: 15px;
-  font-weight: bold;
-  color: rgb(73, 73, 73);
-}
-article ul li #author{
-  font-size: 12px;
-  color: rgb(115, 115, 115);
-}
-article ul li #note{
-  font-size: 11px;
-  color: rgb(115, 115, 115);
-}
-article ul li #booktitle{
-  font-size: 12px;
-  color: rgb(115, 115, 115);
-  font-style: italic;
-}
-article ul li #link{
-  font-size: 14px;
-  color: rgb(115, 115, 115);
 }
 
 .search {
