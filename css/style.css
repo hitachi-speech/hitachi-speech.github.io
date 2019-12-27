@@ -1,6 +1,7 @@
 * {
   font-family: "Open Sans", sans-serif;
-  transform: rotate(0.001deg);
+  -ms-transform: rotate(0.001deg);
+  -moz-transform: rotate(0.001deg);
 }
 
 *, *:before, *:after {
