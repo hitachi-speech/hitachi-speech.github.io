@@ -33,24 +33,24 @@ html {
   aside {
     display: none;
   }
-  article ul li #title{
+  article ul li .title{
     font-size: 15px;
     font-weight: bold;
     color: rgb(73, 73, 73);
   }
-  article ul li #author, #note, #booktitle, #link{
+  article ul li .author, .note, .booktitle, .link{
     color: rgb(115, 115, 115);
   }
-  article ul li #author, #note, #booktitle {
+  article ul li .author, .note, .booktitle {
     font-size: 12px;
   }
-  article ul li #note{
+  article ul li .note{
     font-size: 11px;
   }
-  article ul li #booktitle{
+  article ul li .booktitle{
     font-style: italic;
   }
-  article ul li #link{
+  article ul li .link{
     font-size: 14px;
   }
 }
@@ -75,21 +75,21 @@ html {
   aside {
     display: block;
   }
-  article ul li #title{
+  article ul li .title{
     font-size: 16px;
     font-weight: bold;
     color: rgb(73, 73, 73);
   }
-  article ul li #author, #note, #booktitle, #link{
+  article ul li .author, .note, .booktitle, .link{
     color: rgb(115, 115, 115);
   }
-  article ul li #author, #booktitle, #link {
+  article ul li .author, .booktitle, .link {
     font-size: 14px;
   }
-  article ul li #note{
+  article ul li .note{
     font-size: 12px;
   }
-  article ul li #booktitle{
+  article ul li .booktitle{
     font-style: italic;
   }
 }
