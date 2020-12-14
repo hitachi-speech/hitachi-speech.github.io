@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var authors = document.getElementsByClassName("author");
     for (var i = 0, len=authors.length|0; i < len; i = i + 1 | 0) {
         authors[i].innerHTML = authors[i].innerHTML.replace("Hiroki Ohashi", "<a href=\"https://scholar.google.co.jp/citations?hl=en&user=GKC6bbYAAAAJ\">Hiroki Ohashi</a>");
+        authors[i].innerHTML = authors[i].innerHTML.replace("Hiroaki Ozaki", "<a href=\"https://www.semanticscholar.org/author/Hiroaki-Ozaki/36904068\">Hiaki Ozaki</a>");
         authors[i].innerHTML = authors[i].innerHTML.replace("Katsuyuki Nakamura", "<a href=\"https://scholar.google.co.jp/citations?hl=en&user=ZIxQ5zAAAAAJ\">Katsuyuki Nakamura</a>");
         authors[i].innerHTML = authors[i].innerHTML.replace("Masato Tamura", "<a href=\"https://scholar.google.co.jp/citations?user=IbPzCocAAAAJ&hl=en\">Masato Tamura</a>");
         authors[i].innerHTML = authors[i].innerHTML.replace("Phong Nguyen", "<a href=\"https://scholar.google.co.jp/citations?hl=en&user=v3GPtFwAAAAJ\">Phong Nguyen</a>");
