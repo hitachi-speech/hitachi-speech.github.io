@@ -8,11 +8,11 @@ document.addEventListener("DOMContentLoaded", function() {
         authors[i].innerHTML = authors[i].innerHTML.replace("Phong Nguyen", "<a href=\"https://scholar.google.co.jp/citations?hl=en&user=v3GPtFwAAAAJ\">Phong Nguyen</a>");
         authors[i].innerHTML = authors[i].innerHTML.replace("Phong Xuan Nguyen", "<a href=\"https://scholar.google.co.jp/citations?hl=en&user=v3GPtFwAAAAJ\">Phong Xuan Nguyen</a>");
         authors[i].innerHTML = authors[i].innerHTML.replace("Quan Kong", "<a href=\"https://scholar.google.co.uk/citations?user=9lqFOsEAAAAJ&hl=en\">Quan Kong</a>");
+        authors[i].innerHTML = authors[i].innerHTML.replace("Ryo Tanabe", "<a href=\"https://scholar.google.co.jp/citations?user=6anrT6wAAAAJ&hl=en\">Ryo Tanabe</a>");
         authors[i].innerHTML = authors[i].innerHTML.replace("Ryota Kamoshida", "<a href=\"https://scholar.google.com/citations?hl=en&user=HXJnKcEAAAAJ\">Ryota Kamoshida</a>");
         authors[i].innerHTML = authors[i].innerHTML.replace("Shota Horiguchi", "<a href=\"https://scholar.google.com/citations?user=9U5YK3wAAAAJ&hl=en\">Shota Horiguchi</a>");
         authors[i].innerHTML = authors[i].innerHTML.replace("Yohei Kawaguchi", "<a href=\"https://scholar.google.com/citations?user=W1HV9Q8AAAAJ&hl=en\">Yohei Kawaguchi</a>");
         authors[i].innerHTML = authors[i].innerHTML.replace("Yuki Inoue", "<a href=\"https://scholar.google.co.jp/citations?hl=en&user=ZemgttEAAAAJ\">Yuki Inoue</a>");
-        authors[i].innerHTML = authors[i].innerHTML.replace("Yusuke Fujita", "<a href=\"https://scholar.google.com/citations?user=8e5X3BQAAAAJ&hl=en\">Yusuke Fujita</a>");
         authors[i].innerHTML = authors[i].innerHTML.replace("Yuta Koreeda", "<a href=\"https://scholar.google.co.jp/citations?user=zUJ8Ao4AAAAJ&hl=en\">Yuta Koreeda</a>");
         authors[i].innerHTML = authors[i].innerHTML.replace("Ziwei Deng", "<a href=\"https://scholar.google.com/citations?hl=en&user=kSxSZRgAAAAJ\">Ziwei Deng</a>");
     }
