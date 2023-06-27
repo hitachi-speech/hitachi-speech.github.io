@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
         authors[i].innerHTML = authors[i].innerHTML.replace("Takeshi Homma", "<a href=\"https://scholar.google.com/citations?hl=en&user=2d2a3B4AAAAJ\">Takeshi Homma</a>");
         authors[i].innerHTML = authors[i].innerHTML.replace("Terufumi Morishita", "<a href=\"https://morisht.github.io/MorishT\">Terufumi Morishita</a>");
         authors[i].innerHTML = authors[i].innerHTML.replace("Yohei Kawaguchi", "<a href=\"https://scholar.google.com/citations?user=W1HV9Q8AAAAJ&hl=en\">Yohei Kawaguchi</a>");
+        authors[i].innerHTML = authors[i].innerHTML.replace("Yoshiki Ito", "<a href=\"https://scholar.google.co.jp/citations?user=EuHzcsMAAAAJ&hl=en\">Yoshiki Ito</a>");
         authors[i].innerHTML = authors[i].innerHTML.replace("Yawen Xue", "<a href=\"https://scholar.google.com/citations?user=zxRaCFMAAAAJ&hl=en\">Yawen Xue</a>");
         authors[i].innerHTML = authors[i].innerHTML.replace("Yuki Inoue", "<a href=\"https://scholar.google.co.jp/citations?hl=en&user=ZemgttEAAAAJ\">Yuki Inoue</a>");
         authors[i].innerHTML = authors[i].innerHTML.replace("Yuki Takashima", "<a href=\"https://scholar.google.com/citations?hl=en&user=le9B9BQAAAAJ\">Yuki Takashima</a>");
