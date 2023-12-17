@@ -66,14 +66,14 @@ window.onload = function() {
 
     slider = document.getElementById("filterByYear");
     noUiSlider.create(slider, {
-        start: [2015, 2023],
+        start: [2015, 2024],
         step: 1,
         connect: true,
         orientation: 'horizontal',
         behaviour: 'tap-drag',
         range: {
             'min': 2015,
-            'max': 2023
+            'max': 2024
         },
         pips: {
             mode: 'steps',
