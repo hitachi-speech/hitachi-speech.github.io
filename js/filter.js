@@ -73,7 +73,7 @@ window.onload = function() {
         behaviour: 'tap-drag',
         range: {
             'min': 2015,
-            'max': 2024
+            'max': 2025
         },
         pips: {
             mode: 'steps',
