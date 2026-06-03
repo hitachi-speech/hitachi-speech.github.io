@@ -20,5 +20,9 @@ document.addEventListener("DOMContentLoaded", function () {
         authors[i].innerHTML = authors[i].innerHTML.replace("Yuki Takashima", "<a href=\"https://scholar.google.com/citations?hl=en&user=le9B9BQAAAAJ\">Yuki Takashima</a>");
         authors[i].innerHTML = authors[i].innerHTML.replace("Yuta Koreeda", "<a href=\"https://scholar.google.co.jp/citations?user=zUJ8Ao4AAAAJ&hl=en\">Yuta Koreeda</a>");
         authors[i].innerHTML = authors[i].innerHTML.replace("Ziwei Deng", "<a href=\"https://scholar.google.com/citations?hl=en&user=kSxSZRgAAAAJ\">Ziwei Deng</a>");
+        authors[i].innerHTML = authors[i].innerHTML.replace("Soichiro Okazaki", "<a href=\"https://scholar.google.com/citations?user=GIGC74IAAAAJ\">Soichiro Okazaki</a>");
+        authors[i].innerHTML = authors[i].innerHTML.replace("Hiroki Ohashi", "<a href=\"https://scholar.google.com/citations?user=GKC6bbYAAAAJ\">Hiroki Ohashi</a>");
+        authors[i].innerHTML = authors[i].innerHTML.replace("Tomoya Nishida", "<a href=\"https://scholar.google.co.jp/citations?user=ubyVk6AAAAAJ&hl=ja&oi=ao\">Tomoya Nishida</a>");
+
     }
 })
